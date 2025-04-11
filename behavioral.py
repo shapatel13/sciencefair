@@ -88,8 +88,8 @@ class ScienceExplorerBot:
         # Initialize agent with Groq model and built-in memory
         self.agent = Agent(
             model=Groq(
-                id="llama-3.1-8b-instant",
-                api_key='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'
+                id="llama-3.1-8b-instant"
+               
             ),
             description="An educational science guide for elementary school science fair projects.",
             instructions=self._get_instructions(),
